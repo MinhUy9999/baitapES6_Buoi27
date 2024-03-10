@@ -10,7 +10,7 @@ class clother {
     return (index){
         return  `
         <div class="col-3 pt-3"id=${this.id}>
-        <img src="./../assets/images/clothes/${this.imgSrc_jpg}" alt="">
+        <img src="./assets/images/clothes/${this.imgSrc_jpg}" alt="">
         <h4>${this.name}</h4>
         <button class="btn btn-danger">Thử đồ</button>
       </div>

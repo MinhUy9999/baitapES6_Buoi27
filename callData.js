@@ -4,7 +4,7 @@ function Data() {
   // Phương thức fetchJSON của Data
   this.fetchJSON = function() {
       // Sử dụng fetch để tải dữ liệu từ tệp JSON
-      return fetch("./../data/Data.json").then((response) => {
+      return fetch("./data/Data.json").then((response) => {
           // Kiểm tra xem fetch có thành công không
           if (!response.ok) {
               throw new Error('Network response was not ok');
